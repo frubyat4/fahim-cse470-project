@@ -1,0 +1,1 @@
+web: gunicorn GarmentsProject.wsgi --log-file -
