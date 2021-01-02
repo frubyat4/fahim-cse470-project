@@ -1,10 +1,10 @@
-# from django.test import TestCase
-# from django.test import SimpleTestCase
-# from django.contrib.auth.models import User
-# from django.shortcuts import reverse
-# from django.urls import reverse, resolve
-# from GarmentsManagementApp.views import *
-# from GarmentsManagementApp.models import Garment, Department, Employee, Products, Order, Shipments, Supplier
+from django.test import TestCase
+from django.test import SimpleTestCase
+from django.contrib.auth.models import User
+from django.shortcuts import reverse
+from django.urls import reverse, resolve
+from GarmentsManagementApp.views import *
+from GarmentsManagementApp.models import Garment, Department, Employee, Products, Order, Shipments, Supplier
 
 class TestModels(TestCase):
 
